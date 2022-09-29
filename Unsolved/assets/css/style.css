@@ -2,6 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
+  font: 16px;
 }
 
 header {
@@ -11,6 +12,8 @@ header {
   padding: 1%;
   background-color: #13293d;
   color: #fff;
+  font size: 200px;
+  font: s
 }
 
 /* TODO: Change the heading size to 200%, give it a margin all around, and assign font family to serif */
@@ -55,7 +58,9 @@ article {
 
 /* TODO: Add a margin to the top and bottom of the paragraphs */
 article p {
+  line-height: 24px;
 }
+
 
 /* TODO: Add a margin to indent the list, give it square bullet points, and assign font family to monospace */
 article ul {
